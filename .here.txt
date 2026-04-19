@@ -1,0 +1,24 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "category": "2",
+  "title": "",
+  "author": "",
+  "disc": "0",
+  "music_name_index": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": []
+  },
+  "id_category_list": {
+    "1": "IndoPride",
+    "2": "日本の歌",
+    "3": "Jowo Mletre",
+    "4": "Worldwide",
+    "5": "Instrumental"
+  },
+  "source": "discord"
+}

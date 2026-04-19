@@ -1,0 +1,34 @@
+Aku mau buat sql query otomatis untuk insert ke database.
+
+Deep analyze my plan you have to do in this file execution-plan.txt
+read carefully and make sure you understand it.
+@here = "folder_path"
+
+- Analisis folder [@here]
+- Di luar folder itu, ada file bernama "example.txt". Buka dan analisis format template di dalamnya.
+- Di dalam folder [@here], cari folder dengan nama "flac". jika tidak ada, cari folder dengan nama "1", "2", dst jika exist
+- "flac" berarti album itu hanya punya 1 disc. "1", "2", etc berarti album itu punya lebih dari 1 disc
+- cek isi albumnya dan kamu akan menemukan file music di dalamnya (commonly dia berekstensi .flac)
+- jika nama file itu bukan [01.flac, 02.flac, 03.flac, etc], maka pasti itu adalah nama lagu itu sendiri. perlu kita perbaiki
+- jika nama lagu itu sendiri, cek metadata dari lagu di folder itu. Jika metadata merupakan kanji (beraksara jepang), maka ada 2 hal yang harus kamu lakukan. Pertama, di root folder, cari file txt selain ".here.txt", lalu buka isinya. biasanya, di sana ada informasi mengenai nama lagu yang sudah dalam bentuk translate ke romanized/translated
+- tugas kamu adalah mapping tiap lagu berjudul apa dalam versi romanized.
+- masukkan keypair index lagu dalam filename dengan judul versi non kanji, seperti contoh pada "example.txt" di section json ['music_name_index']
+- begitu juga dengan author/artist. cek dari metadata, jika tidak ada/berbentuk kanji, cek file txt di folder root. biasanya informasi tersimpan di sana. Namun, ingat, untuk album dengan banyak lagu, biasanya tiap lagu punya detail author/artist yang berbeda. Kamu pastikan selalu cek metadata, apakah lagu tersebut punya nama artist yang sama dengan artist album as general, sehingga tiap lagu di-mapping berdasarkan siap author-nya secara detail. General author itu untuk konklusi secara umum siapa yang berkontribusi di album tersebut. Ini sering terjadi di album soundtrack.
+- jika tidak ada informasi mengenai nama author/title lagu dalam format romanized, maka harusnya nama itu sudah ada di namafile (bukan metadata) lagu itu sendiri.
+- tugas kamu tetap sama, mapping index namefile lagu itu dengan judul versi non-kanji.
+- dalam hal ini, kamu harus rename semua lagu menjadi format filename index [01.flac, 02.flac, 03.flac, dll - sesuaikan sama ekstensi file asli. boleh .mp3, .wav, .m4a, dll]. karena itu akan dibaca oleh python automatization file.
+- masukkan informasi itu ke dalam ".here.txt", persis seperti format "example.txt". meskipun ini txt, ini nanti di-treat sebagai json.
+- Apabila index filename, judul lagu, dan author sudah di-mapping, tugas berikutnya adalah cari judul album dan author albumnya as general.
+- Again, biasanya informasi ini ada di file txt lain selain "example.txt" dan ".here.txt". cari dan identifikasi mana judul dan author, lalu input ke ".here.txt"
+- Kamu sebaiknya juga insert di section ['disc'] di ".here.txt", jika folder di dalam root folder ada yang bernama "1", "2", dst. ini menandakan bahwa ini album punya beberapa disc.
+- file ".here.txt" ini akan di-treat sebagai json. pastikan kamu aware sama double quote dan spacing enter.
+- untuk file automation sendiri, aku sudah punya di folder [G:\.shortcut-targets-by-id\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\SIBEUX\Algorithm_Programming\PEMROGRAMAN\Main_Program\Python\Program Tools\crud-file-windows\], atau mungkin kamu punya cara sendiri buat eksekusinya. up to you.
+- Untuk section lain seperti ['id_category_list'] dan ['category'] itu abaikan. aku sendiri yang akan mengubahnya.
+- jangan rename folder "flac". Meskipun isinya bukan flac, tapi nama folder itu sudah baku dan akan dicek oleh python automation file.
+- Last but not least, tambahkan prefix di nama album [@here] berupa jumlah keseluruhan lagu di album tersebut, eg: 23-album-name
+
+IMPORTANT:
+1. JANGAN ADA SATU PUN NAMA LAGU YANG PAKAI AKSARA ANEH SELAIN ALPHABET, SEPERTI KANJI. KECUALI, MEMANG DISISIPKAN DI TENGAH NAMA LAGU ITU SENDIRI (MISALNYA JUDUL LAGUNYA MEMANG ADA KANJI DI TENGAHNYA).
+2. SELALU COMPARE ANTARA FILE TXT LAIN DAN METADATA. UNTUK NAMA ALBUM GENERAL, FILE TXT LAIN LEBIH AKURAT KARENA MENGANDUNG INFORMASI SEPERTI INI OPENING/ENDING FILM/ANIME TERTENTU. UTAMAKAN UNTUK NAMA ALBUM GENERAL, GUNAKAN DARI TXT TERLEBIH DAHULU. JIKA TIDAK ADA, BARU GUNAKAN METADATA.
+
+execute

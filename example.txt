@@ -1,0 +1,28 @@
+{
+  "1": ["01 --- Reza Rahadian",
+"02 --- Tepe213",
+"03 --- Janggar Prawono"],
+  "2": [],
+  "3": [],
+  "4": [],
+  "category": "1",
+  "title": "Bumi Kita Semua Bersatu",
+  "author": "Reza Rahadian, Ganjar Prawono ft. Tepe213",
+  "disc": "0",
+  "music_name_index": {
+    "1": ["01 --- Hebat!",
+"02 --- Kita bisa melangkah",
+"03 --- "Terbang \"ankasa\" raya"],
+    "2": [],
+    "3": [],
+    "4": []
+  },
+  "id_category_list": {
+    "1": "IndoPride",
+    "2": "日本の歌",
+    "3": "Jowo Mletre",
+    "4": "Worldwide",
+    "5": "Instrumental"
+  },
+  "source": "discord"
+}
