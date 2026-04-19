@@ -5,7 +5,7 @@
   "2": [],
   "3": [],
   "4": [],
-  "category": "1",
+  "category": "2",
   "title": "Bumi Kita Semua Bersatu",
   "author": "Reza Rahadian, Ganjar Prawono ft. Tepe213",
   "disc": "0",
