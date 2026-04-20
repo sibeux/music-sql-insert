@@ -25,7 +25,7 @@ read carefully and make sure you understand it.
 - untuk file automation sendiri, aku sudah punya di folder [G:\.shortcut-targets-by-id\1GLhesaekxPRKr-lkNYX-mtfouqJhqhXN\SIBEUX\Algorithm_Programming\PEMROGRAMAN\Main_Program\Python\Program Tools\crud-file-windows\], atau mungkin kamu punya cara sendiri buat eksekusinya. up to you.
 - Untuk section lain seperti ['id_category_list'] dan ['category'] itu abaikan. aku sendiri yang akan mengubahnya.
 - jangan rename folder "flac". Meskipun isinya bukan flac, tapi nama folder itu sudah baku dan akan dicek oleh python automation file.
-- Last but not least, tambahkan prefix di nama album [@here] berupa jumlah keseluruhan lagu di album tersebut, eg: 23-album-name
+- Last but not least, tambahkan prefix di nama album berupa jumlah keseluruhan lagu di album tersebut, eg: 23-album-name
 
 IMPORTANT:
 1. JANGAN ADA SATU PUN NAMA LAGU YANG PAKAI AKSARA ANEH SELAIN ALPHABET, SEPERTI KANJI. KECUALI, MEMANG DISISIPKAN DI TENGAH NAMA LAGU ITU SENDIRI (MISALNYA JUDUL LAGUNYA MEMANG ADA KANJI DI TENGAHNYA).
