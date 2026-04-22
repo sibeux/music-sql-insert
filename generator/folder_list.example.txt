@@ -1,0 +1,4 @@
+1-category\artist-name-YYYYMMDD-HHMMSS
+2-category\artist-name-YYYYMMDD-HHMMSS
+3-category\artist-name-YYYYMMDD-HHMMSS
+4-category\artist-name-YYYYMMDD-HHMMSS
