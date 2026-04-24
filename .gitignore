@@ -2,3 +2,4 @@ desktop.ini
 .env
 test.txt
 generator/folder_list.txt
+scratch/*
