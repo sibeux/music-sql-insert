@@ -4,6 +4,8 @@ Deep analyze my plan you have to do in this file execution-plan.txt
 read carefully and make sure you understand it.
 @here = "folder_path"
 
+!!! JANGAN PERNAH HAPUS FILE APAPUN YANG EXISTING.
+
 - Analisis folder [@here]
 - Di luar folder itu, ada file bernama "example.txt". Buka dan analisis format template di dalamnya.
 - Di dalam folder [@here], cari folder dengan nama "flac". jika tidak ada, cari folder dengan nama "1", "2", dst jika exist
