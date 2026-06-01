@@ -1,0 +1,73 @@
+sibeux@vpsneoms44:~/Downloads/a$ tree -f
+.
+├── ./Ao no Sumika (Acoustic ver.)
+│   ├── ./Ao no Sumika (Acoustic ver.)/COVER-min.jpg
+│   ├── ./Ao no Sumika (Acoustic ver.)/COVER.jpg
+│   ├── ./Ao no Sumika (Acoustic ver.)/Telegram @hiresmusicjapan.txt
+│   └── ./Ao no Sumika (Acoustic ver.)/flac
+│       └── ./Ao no Sumika (Acoustic ver.)/flac/Ao no Sumika (Acoustic ver.).flac
+├── ./Danjoru OST
+│   ├── ./Danjoru OST/Cover-min.jpg
+│   ├── ./Danjoru OST/flac
+│   │   ├── ./Danjoru OST/flac/Aa Onnattarashika.flac
+│   │   ├── ./Danjoru OST/flac/Aete no Iinari.flac
+│   │   ├── ./Danjoru OST/flac/Ai to yobunokana.flac
+│   │   ├── ./Danjoru OST/flac/Asa ga kurumade zutto.flac
+│   │   ├── ./Danjoru OST/flac/Atashi ni shitokinayo⁇.flac
+│   │   ├── ./Danjoru OST/flac/Atashi o hitsuyouto shitekureru Hito.flac
+│   │   ├── ./Danjoru OST/flac/Chotto yarakashita Hanashi.flac
+│   │   ├── ./Danjoru OST/flac/Clematis.flac
+│   │   ├── ./Danjoru OST/flac/Coleus.flac
+│   │   ├── ./Danjoru OST/flac/Crocus.flac
+│   │   ├── ./Danjoru OST/flac/Danjo no Yujou wa seiritsu suru⁇.flac
+│   │   ├── ./Danjoru OST/flac/Dear my Soleil (Guitar Ver.).flac
+│   │   ├── ./Danjoru OST/flac/Douse rokudemonai koto darouna.flac
+│   │   ├── ./Danjoru OST/flac/Edelweiss.flac
+│   │   ├── ./Danjoru OST/flac/Fuan o uchikesu Houhou wa aruno⁇.flac
+│   │   ├── ./Danjoru OST/flac/Gekkabijin.flac
+│   │   ├── ./Danjoru OST/flac/Good Morning Call.flac
+│   │   ├── ./Danjoru OST/flac/Haibisukasu o Kami ni tsukete.flac
+│   │   ├── ./Danjoru OST/flac/Hajimari no Ippo.flac
+│   │   ├── ./Danjoru OST/flac/Himari.flac
+│   │   ├── ./Danjoru OST/flac/Hitori yogari no Cho-ka-.flac
+│   │   ├── ./Danjoru OST/flac/Ichiban niau Hana.flac
+│   │   ├── ./Danjoru OST/flac/Issho ni iruno ga Futsu.flac
+│   │   ├── ./Danjoru OST/flac/Koakuma na Atashi mo Saikou ni Kawaiku nai⁇.flac
+│   │   ├── ./Danjoru OST/flac/Kumo o kirisakuyouni.flac
+│   │   ├── ./Danjoru OST/flac/Masaka kotowaranaiyone⁇.flac
+│   │   ├── ./Danjoru OST/flac/Moku youbi 16 Ji.flac
+│   │   ├── ./Danjoru OST/flac/Monologue Tron.flac
+│   │   ├── ./Danjoru OST/flac/Nananen mae kara zutto.flac
+│   │   ├── ./Danjoru OST/flac/Otagai ni Ippomo yuzuranai.flac
+│   │   ├── ./Danjoru OST/flac/Petunia.flac
+│   │   ├── ./Danjoru OST/flac/Seishun Gokko.flac
+│   │   ├── ./Danjoru OST/flac/Sekai ga kagayakundayo.flac
+│   │   ├── ./Danjoru OST/flac/Shinyuu ni narou.flac
+│   │   ├── ./Danjoru OST/flac/Shitsumon Koitte nandeshoka⁇ (Piano Ver.).flac
+│   │   ├── ./Danjoru OST/flac/Sono hi no Koto.flac
+│   │   ├── ./Danjoru OST/flac/Suki ni naranaidene⁇.flac
+│   │   ├── ./Danjoru OST/flac/Sunao ni narenai.flac
+│   │   ├── ./Danjoru OST/flac/Sweet Summer Memories.flac
+│   │   ├── ./Danjoru OST/flac/Taisei ga nai!.flac
+│   │   ├── ./Danjoru OST/flac/Tsumeruyouna iikatadane.flac
+│   │   ├── ./Danjoru OST/flac/Yasashii Kimochi ga kasanari atte.flac
+│   │   └── ./Danjoru OST/flac/Zekkou no theme.flac
+│   └── ./Danjoru OST/scan
+│       └── ./Danjoru OST/scan/Cover.jpg
+└── ./MORE-JUMP
+    ├── ./MORE-JUMP/cover.jpg
+    └── ./MORE-JUMP/flac
+        ├── ./MORE-JUMP/flac/Akuyaku ni Kiss Scene wo.flac
+        ├── ./MORE-JUMP/flac/Cat Food.flac
+        ├── ./MORE-JUMP/flac/Dame Ningen da!.flac
+        ├── ./MORE-JUMP/flac/Kisaragi Attention.flac
+        ├── ./MORE-JUMP/flac/Kuu ni Naru.flac
+        ├── ./MORE-JUMP/flac/Kyuukurarin.flac
+        ├── ./MORE-JUMP/flac/Melancholic.flac
+        ├── ./MORE-JUMP/flac/Poppin’ Candy☆Fever!.flac
+        ├── ./MORE-JUMP/flac/Sayonara Princess.flac
+        ├── ./MORE-JUMP/flac/Shiroi Yuki no Princess wa.flac
+        ├── ./MORE-JUMP/flac/Superhero.flac
+        └── ./MORE-JUMP/flac/flos.flac
+
+8 directories, 62 files

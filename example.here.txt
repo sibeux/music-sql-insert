@@ -12,7 +12,7 @@
   "music_name_index": {
     "1": ["01 --- Hebat!",
 "02 --- Kita bisa melangkah",
-"03 --- "Terbang \"ankasa\" raya"],
+"03 --- Terbang \"ankasa\" raya"],
     "2": [],
     "3": [],
     "4": []
