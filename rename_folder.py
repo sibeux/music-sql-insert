@@ -39,5 +39,12 @@ def rename_folders(base_path):
             print(f"Renamed: {folder_name} -> {new_name}")
 
 if __name__ == "__main__":
-    base_path = input("Masukkan path folder: ").strip()
-    rename_folders(base_path)
+    # base_path = input("Masukkan path folder: ").strip()
+    list_base_path = [
+        r"c:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\1-indopride",
+        r"c:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\2-Anisong",
+        r"C:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\4-worldwide",
+        r"C:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\5-instrumental"
+    ]
+    for base_path in list_base_path:
+        rename_folders(base_path)
