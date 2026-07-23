@@ -3,5 +3,6 @@
     "files.associations": {
         "*.embeddedhtml": "html",
         ".here.txt": "json"
-    }
+    },
+    "diffEditor.renderSideBySide": false
 }
