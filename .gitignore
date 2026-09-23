@@ -3,3 +3,6 @@ desktop.ini
 test.txt
 generator/folder_list.txt
 scratch/*
+generator/process_2anisong.py
+generator/process_instrumental_batch.py
+generator/process_worldwide_anisong.py
