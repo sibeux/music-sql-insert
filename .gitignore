@@ -8,3 +8,5 @@ generator/process_instrumental_batch.py
 generator/process_worldwide_anisong.py
 generator/input.txt
 generator/delete.sql
+__pycache__/
+*.pyc
