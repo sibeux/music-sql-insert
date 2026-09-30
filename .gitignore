@@ -6,7 +6,7 @@ scratch/*
 generator/process_2anisong.py
 generator/process_instrumental_batch.py
 generator/process_worldwide_anisong.py
-generator/input.txt
-generator/delete.sql
 __pycache__/
 *.pyc
+generator/delete_query/input.txt
+generator/delete_query/delete.sql
