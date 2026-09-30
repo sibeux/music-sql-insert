@@ -10,3 +10,8 @@ __pycache__/
 *.pyc
 generator/delete_query/input.txt
 generator/delete_query/delete.sql
+script/
+1-indopride/
+2-anisong/
+4-worldwide/
+5-instrumental/
