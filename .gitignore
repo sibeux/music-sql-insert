@@ -13,5 +13,6 @@ generator/delete_query/delete.sql
 script/
 1-indopride/
 2-anisong/
+3-jowomletre/
 4-worldwide/
 5-instrumental/

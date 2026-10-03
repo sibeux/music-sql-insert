@@ -22,6 +22,12 @@ UPLOAD_TARGETS = [
         "remote": "b2remote:cybeat-sibeux/files/music/anisong",
     },
     {
+        "id": "3-jowomletre",
+        "name": "3. Jowo Mletre",
+        "local_rel": "3-jowomletre",
+        "remote": "b2remote:cybeat-sibeux/files/music/jowomletre",
+    },
+    {
         "id": "4-worldwide",
         "name": "4. Worldwide",
         "local_rel": "4-worldwide",

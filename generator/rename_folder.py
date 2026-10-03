@@ -43,6 +43,7 @@ if __name__ == "__main__":
     list_base_path = [
         r"c:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\1-indopride",
         r"c:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\2-Anisong",
+        r"C:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\3-jowomletre",
         r"C:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\4-worldwide",
         r"C:\Users\Nasrul Wahabi\Downloads\Music\UPLOAD\5-instrumental"
     ]
